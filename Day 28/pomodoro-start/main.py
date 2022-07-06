@@ -21,9 +21,7 @@ def calculate_start():
     work_sec = WORK_MIN * 60
     short_sec = SHORT_BREAK_MIN * 60
     long_sec = LONG_BREAK_MIN * 60
-    work_sec = 5
-    short_sec = 3
-    long_sec = 2
+
 
     if reps % 2 != 0:
         label.config(text="Work", fg=GREEN)
